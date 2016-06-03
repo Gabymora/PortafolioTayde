@@ -62,14 +62,5 @@ $(function(){
 
   });
 
-$(document).ready(function(){
-    $('#rotar').click(function(){
-        $(this).animate('shake','fast');
-    });
-});
-/*jQuery(document).ready(function() {
-  $('skills').click(function(){
-    $('i').animate({this:swing});
-  });
-});*/
+
 });
