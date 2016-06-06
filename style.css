@@ -299,11 +299,12 @@ a {
 	FOOTER
 \*------------------------------------*/
 #foo .container-fluid{
-    background-image: url("img/wave-64170_1920.jpg");
+    background-image: url("img/blue-1018119_1920.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
-    background-attachment: fixed;    
+    height: 35vh;
+    background-position: 0% 25%;
+   
 }
 #contacto h2{
     color:#72497A;
