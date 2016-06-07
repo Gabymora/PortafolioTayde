@@ -40,8 +40,9 @@ span.x4:before, i.x4:before
 .mb-5{
     margin-bottom: 5%;
 }
-
-
+.mt-3{
+    margin-top: 3%;
+}
 /*------------------------------------*\
 	HEADER
 \*------------------------------------*/
@@ -56,20 +57,19 @@ header .container-fluid
     background-attachment: fixed;    
 }
 
-.hamburger
-{
-    font-size: 2.3em;
+.hamburger {
+    font-size: 3em;
     color: #72497A;
+    position: fixed;
 }
 
-.hamburger:hover
-{
-  color: #04A3A7;
+.hamburger:hover {
+  color: #A268AD;
   cursor: pointer;
+
 }
 
-.jumbotron
-{
+.jumbotron{
     background: none;
     text-align: center;
 }
@@ -85,10 +85,9 @@ header .container-fluid
     color: #F2F1F0;
 }
 
-.jumbotron p
-{
+.jumbotron p {
     color: #F2F1F0;
-    margin-bottom: 4%;
+    margin-bottom: 5%;
 }
 
 .skill {
@@ -106,18 +105,16 @@ header .container-fluid
 	SECTIONS
 \*------------------------------------*/
 
-#aboutme .container-fluid{
-    background-image: url("img/ChicagoUp.jpg");
+#aboutme .container-fluid {
+    background-image: url("img/blue-1018119_1920.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60vh;
-    background-attachment: fixed;    
-
-
+    height: 25vh;
+    background-position: 0% 40%;
 }
 #aboutme h2{
     color:#72497A;
-    margin-top: 5%;
+    margin-top: 8%;
 }
 #aboutme {
     color: #fff;
@@ -136,7 +133,9 @@ a {
     a.selected {
         color: #04A3A7;
     }
-
+.soyo{
+    margin-top: 5%;
+}
 .redondo{
     border-radius: 50px;
     border: 1px solid black;
@@ -303,8 +302,12 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     height: 35vh;
-    background-position: 0% 25%;
-   
+    background-position: 0% 25%;  
+}
+.datos{
+    margin-top: 25%;
+    color: #048F8D;
+    font-size: 24px;
 }
 #contacto h2{
     color:#72497A;
