@@ -73,10 +73,10 @@
 	left: 0;
 	background: #fff;
 	font-family: "Give You Glory", cursive;
-	color: #a7a0a2;
+	color: #72497A;
 	padding: 50px 40px;
 	text-align: left;
-	font-size: 22px;
+	font-size: 21px;
 	line-height: 1.25;
 	z-index: 1;
 }
@@ -109,8 +109,8 @@
 	position: relative;
 	display: inline-block;
 	margin: 0 5px;
-	width: 30px;
-	height: 30px;
+	width: 33px;
+	height: 33px;
 	cursor: pointer;
 	background: #aaa;
 	border-radius: 50%;
@@ -128,7 +128,7 @@
 .photostack nav span::after {
 	content: "\e600";
 	font-family: 'icons';
-	font-size: 80%;
+	font-size: 95%;
 	speak: none;
 	display: inline-block;
 	vertical-align: top;
@@ -303,7 +303,7 @@ figure.photostack-current::after {
 
 /* Since we don't have back sides for the first photo stack, we don't want the current dot to become too big */
 #photostack-1 nav span.current {
-	background: #888;
+	background: #f42257;
 	-webkit-transform: scale(0.61);
 	transform: scale(0.61);
 }
