@@ -93,7 +93,10 @@ header .container-fluid
 .skill {
     color: #048F8D;
 }
-
+#skills{
+    background-image: url(img/fondo2.jpg);
+    z-index: .3;
+} 
 #skills p{
     color: #72497A !important;
 }
@@ -105,16 +108,13 @@ header .container-fluid
 	SECTIONS
 \*------------------------------------*/
 
-#aboutme .container-fluid {
-    background-image: url("img/blue-1018119_1920.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 25vh;
-    background-position: 0% 40%;
+#aboutme .container-fluid img {
+    width: 100%;
+    height: 20vh;
 }
 #aboutme h2{
     color:#72497A;
-    margin-top: 8%;
+    margin-top: 6%;
 }
 #aboutme {
     color: #fff;
@@ -297,12 +297,10 @@ a {
 /*------------------------------------*\
 	FOOTER
 \*------------------------------------*/
-#foo .container-fluid{
-    background-image: url("img/blue-1018119_1920.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 35vh;
-    background-position: 0% 25%;  
+#foo .container-fluid img{
+    width: 100%;
+    height: 20vh;
+ 
 }
 .datos{
     margin-top: 25%;
@@ -331,7 +329,7 @@ a {
 footer
 {
     background-color: #72497A;
-    padding-top: 1em;
+    height: 30vh;
 }
 .pfoo{
     margin-top: 7%;
