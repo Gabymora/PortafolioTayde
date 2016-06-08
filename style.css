@@ -53,7 +53,7 @@ header .container-fluid
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    padding-top: 36px;
+    padding-top: 10px;
     background-attachment: fixed;    
 }
 
@@ -61,6 +61,7 @@ header .container-fluid
     font-size: 3em;
     color: #72497A;
     position: fixed;
+    z-index: 1000;
 }
 
 .hamburger:hover {
@@ -89,7 +90,9 @@ header .container-fluid
     color: #F2F1F0;
     margin-bottom: 5%;
 }
-
+.jumbotron h1{
+    margin-top: 15%;
+}
 .skill {
     color: #048F8D;
 }
