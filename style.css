@@ -348,3 +348,8 @@ footer
 footer span{
     color: #048F8D;
 }
+.boton{
+    margin-left: 45%;
+    margin-bottom: 5%;
+    border-color: #72497A;
+}
